@@ -7,7 +7,7 @@ export default function HBLDashboard() {
   const [lastUpdated, setLastUpdated] = useState(null);
   const [error, setError] = useState(null);
 
-  const CSV_URL = 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/public/data.csv';
+  const CSV_URL = 'https://raw.githubusercontent.com/agvanguard/HBL-Dashboard/refs/heads/main/public/data.csv';
 
   const parseCSV = (text) => {
     const lines = text.trim().split('\n');
